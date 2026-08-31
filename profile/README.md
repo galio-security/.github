@@ -1,78 +1,96 @@
 <p align="center">
-  <img src="assets/logo.png" alt="Galio" width="88">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.jpg">
+    <img src="assets/banner-light.jpg" alt="Galio — offensive security" width="100%">
+  </picture>
 </p>
 
-<h1 align="center">Galio</h1>
+<h3 align="center">We find the ways into your systems before someone else does.</h3>
 
 <p align="center">
-  Offensive security for products whose attack surface changes faster than an annual audit.
+  Security testing that runs all year, not once a year.<br>
+  AI widens the coverage. People confirm every finding.
 </p>
 
 <p align="center">
-  <a href="https://galiosec.com">galiosec.com</a>
+  <a href="https://galiosec.com"><strong>galiosec.com</strong></a>
 </p>
 
----
+<p align="center"><img src="assets/rule.png" alt="" width="100%"></p>
 
-## What we do
-
-**Penetration testing.** We attack your systems the way someone else eventually will, then show you the path they'd take. Scope can cover web applications, APIs, infrastructure, exposed services, cloud environments and the integrations between them — agreed with your team before we start.
-
-**Authorized phishing simulations.** Realistic campaigns run against your own organization to measure how susceptible it actually is, followed by training so people recognize and report the next attempt.
-
-We also do applied research on AI for offensive security. It informs how we work; it isn't a separate product.
+<table>
+  <tr>
+    <td width="33%" valign="top">
+      <img src="assets/card-pentest.jpg" alt="" width="100%">
+      <h3>Penetration testing</h3>
+      <p>Web apps, APIs, infrastructure, exposed services, cloud. We take the path an attacker would take, then show you exactly where it ends.</p>
+    </td>
+    <td width="33%" valign="top">
+      <img src="assets/card-phishing.jpg" alt="" width="100%">
+      <h3>Phishing simulations</h3>
+      <p>Authorized campaigns against your own organization. You learn how susceptible it really is, and your team learns to spot the next one.</p>
+    </td>
+    <td width="33%" valign="top">
+      <img src="assets/card-research.jpg" alt="" width="100%">
+      <h3>AI security research</h3>
+      <p>Applied work on AI agents for offensive security. It sharpens how we test — it isn't a separate product.</p>
+    </td>
+  </tr>
+</table>
 
 ## How we work
 
-Most security testing is a snapshot. A system that passed six months ago has since shipped features, added dependencies and exposed new endpoints — and nothing re-checked it. Our engagements are structured as recurring tests across the year rather than one report you file away.
+A system that passed six months ago has since shipped features, pulled in dependencies and opened new endpoints. Nothing re-checked it. That's the gap we close.
 
-AI handles reconnaissance, coverage and repetition, which lets us test more surface more often. Exploitation, severity, evidence and conclusions are the work of specialists. A finding reaches you because a person confirmed it, not because a scanner flagged it.
+| Stage | What happens |
+|---|---|
+| **Scope first** | Assets, objectives and restrictions agreed with your team. Whether we touch production is a decision, not an assumption. |
+| **Test** | AI handles recon, coverage and repetition. Exploitation, severity and conclusions are ours. |
+| **Report** | Reproducible evidence, prioritized findings, impact in terms of *your* system, and the fix. |
+| **Retest** | We validate your fixes and close the finding — or tell you why it's still open. |
 
-**Scope before testing.** We define assets, objectives, restrictions and operating conditions with your team. Whether we touch production is part of that conversation, not an assumption.
-
-**Reports you can act on.** Every finding ships with reproducible evidence, a severity rating, impact stated in terms of your system, and remediation steps.
-
-**Retesting is included.** Once you've applied fixes, we validate them and close the finding — or explain why it's still open.
-
-<!-- TODO: typical engagement duration — the landing says "depends on scope" rather than committing to a range. If there's a real typical window (e.g. "2-4 weeks per test"), it belongs here. -->
+<!-- TODO: typical engagement duration. The landing says "depends on scope"; if there's a real range (e.g. 2–4 weeks per test), it belongs here. -->
 
 ## Engagements
 
-| | Coverage |
+| Plan | What's included |
 |---|---|
-| **Continuous** | A one-year subscription with three scheduled penetration tests. Each test delivers its own report: reproducible evidence, prioritized findings, remediation steps. |
-| **Premium** | Everything in Continuous, plus authorized phishing campaigns and hands-on training for your team. |
+| **Continuous** | One year, three scheduled penetration tests, a full report on each. |
+| **Premium** | Continuous, plus authorized phishing campaigns and hands-on training for your team. |
 
-Pricing depends on scope. Tell us what you need evaluated and we'll help define it.
+Pricing follows scope. Tell us what needs testing and we'll help define it.
 
 <!-- TODO: link each plan to its page on galiosec.com once those URLs exist. -->
 
-## Team
+## Who we are
 
-Four security professionals based in Argentina, with a background in AI research applied to cybersecurity.
+Four security professionals in Argentina, out of AI research applied to cybersecurity.
 
-That research is what brought the team together: work at LABSIN, the intelligent systems lab at UNCuyo's engineering faculty, and an ongoing collaboration with the Stratosphere Laboratory in the Czech Republic. We won the AICA Challenge with an AI agent built for offensive security, and presented Trident — a high-fidelity environment for offensive and defensive security agents — at Ekoparty Miami 2026.
+That research is what brought us together — work at **LABSIN** (UNCuyo's intelligent systems lab) and an ongoing collaboration with the **Stratosphere Laboratory** in the Czech Republic. We won the **AICA Challenge** with an AI agent built for offensive security, and presented **Trident**, a high-fidelity environment for offensive and defensive security agents, at **Ekoparty Miami 2026**.
 
-<!-- TODO: LABSIN and Stratosphere Laboratory are unlinked on purpose — I did not verify their URLs. Add them if you want the names to be clickable. -->
-<!-- TODO: if Trident or the AICA agent become public repos, link them here. Concrete code is stronger evidence than a conference mention. -->
-<!-- TODO: individual team member GitHub handles, if you want collaborators to be able to find you. -->
+<!-- TODO: LABSIN and Stratosphere are unlinked on purpose — I didn't verify their URLs. Add them to make the names clickable. -->
+<!-- TODO: if Trident or the AICA agent go public, link the repos here. Code beats a conference mention. -->
 
-## Reporting a vulnerability
+## Found something?
 
-If you've found a security issue in Galio's own systems or in anything published under this organization, report it to us directly rather than opening a public issue. We'll confirm receipt, work the issue with you, and credit you if you'd like.
+If you've found a security issue in our systems or in anything published here, tell us directly instead of opening a public issue. We'll confirm receipt, work it with you, and credit you if you want.
 
-<!-- TODO: security contact address (e.g. security@galiosec.com) — needed before this section is actually usable. -->
-<!-- TODO: PGP key fingerprint and public key URL, if you want encrypted reports. -->
-<!-- TODO: consider committing a SECURITY.md at the root of this .github repo — GitHub then shows a "Report a vulnerability" link across every repo in the org. -->
+<!-- TODO: security contact address (e.g. security@galiosec.com) — this section doesn't work without one. -->
+<!-- TODO: PGP fingerprint + public key URL, if you want encrypted reports. -->
+<!-- TODO: a SECURITY.md at this repo's root gives every org repo a "Report a vulnerability" button. -->
 
-If you're testing a client system under a scope we defined, use the channel established for that engagement.
+Testing a client system under a scope we defined? Use the channel set up for that engagement.
 
-## Contact
+<p align="center"><img src="assets/rule.png" alt="" width="100%"></p>
 
-Tell us what system, product or infrastructure you need evaluated, and we'll help you define a concrete scope to start from.
+<h3 align="center">Tell us what needs testing.</h3>
 
-**[galiosec.com](https://galiosec.com)**
+<p align="center">
+  <a href="https://galiosec.com"><strong>galiosec.com</strong></a>
+</p>
 
 <!-- TODO: contact email -->
 <!-- TODO: LinkedIn URL -->
 <!-- TODO: Instagram URL -->
+
+<p align="center"><sub>Galio · Argentina</sub></p>
